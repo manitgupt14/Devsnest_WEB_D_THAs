@@ -1,0 +1,20 @@
+body{
+    background-color: aquamarine;
+    border: black solid 8px;
+    border-radius: 4.5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+h2{
+   background-color: cadetblue;
+}
+table{
+    border-color: rgb(224, 210, 6);
+}
+tr{
+    background-color: darkkhaki;
+    font-weight: 700;
+}
+strong{
+    font-size: larger;
+}
