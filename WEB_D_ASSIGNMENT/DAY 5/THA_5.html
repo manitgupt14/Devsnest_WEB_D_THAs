@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<style>
+    input[type=button]
+    {
+        margin-left: 8px;
+        width:100% ;
+        height :50px;
+        margin-top: 4px;
+        font-size: 36px;
+    }
+    input[type=button]:hover{
+        background-color: goldenrod;
+    }
+    input[type=number]:hover,input[type=text]:hover
+    {
+     background-color:yellow;
+    }
+</style>
+<body style="background-color: greenyellow;">
+    <form action="">
+     <input type="number" name="" id="firnum" placeholder="Enter first number" style="font-size: 48px;width:100%; height:50px;padding: 0px 0px 0px 0px">
+     <br><br>
+     <input type="number" name="" id="secnum" placeholder="Enter second number" style="font-size: 48px;width:100%; height:50px;padding: 0px 0px 0px 0px">
+     <br><br>
+     <input type="button" value="ADDITION" onclick="add()">
+     <input type="button" value="SUBTRACTION" onclick="sub()">
+     <input type="button" value="MULTIPLICATION" onclick="mul()">
+     <input type="button" value="DIVISION" onclick="div()">
+     <br><br>
+     <label for="" style="font-size: 48px;font-weight: 700;" >RESULT</label>
+     <input type="text" name="" id="resul" placeholder="" style="font-size: 48px;width:100%; height:50px;padding: 0px 0px 0px 0px">
+    </form>
+    <script src="THA_5.js"></script>
+</body>
+</html>
