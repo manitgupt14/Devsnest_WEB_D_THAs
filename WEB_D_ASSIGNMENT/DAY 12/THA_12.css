@@ -1,0 +1,40 @@
+input{
+    width :35%;
+    font-size: 38px;
+    align-self: center;
+    border-radius: 10px;
+    border-color: white;
+}
+.add{
+    font-size: 38px;
+    width: 10%;
+    background-color: rgba(0, 128, 0, 0.555);
+    border-radius: 10px;
+    border-color: white;
+}
+.add:hover{
+    background-color: rgb(0, 128, 0);
+}
+.del{
+    font-size: 38px;
+    width: 10%;
+    background-color: rgba(173, 6, 6, 0.664);
+    border-radius: 10px;
+    border-color: white;
+}
+.del:hover{
+    background-color: rgb(173, 6, 6);
+}
+.listitem{
+    font-size: 38px;
+    width: 30%;
+    background-color: rgba(14, 5, 133, 0.527);
+    border-radius: 10px;
+    border-color: white;
+}
+.listitem:hover{
+    background-color: rgb(10, 7, 160);
+}
+body{
+    background-color: turquoise;
+}

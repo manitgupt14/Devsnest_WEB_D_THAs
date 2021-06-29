@@ -1,0 +1,36 @@
+body{
+    margin-left: 40px;
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    margin-left: 40px;
+    font-size: xx-large;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+button{
+    width: 200px;
+    font-size: 28px;
+    background-color: rgb(15, 157, 161);
+    border: none;
+    border-radius: 5px;
+    overflow: none;
+    margin-left: 40px;
+}
+button:hover{
+    background-color: chartreuse;
+}
+a{
+    text-decoration: none;
+}
+h4{
+     float: left;
+     overflow: none;
+     width: 80%;
+     font-size: 20px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    
+}
