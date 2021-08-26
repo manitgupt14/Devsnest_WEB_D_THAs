@@ -1,0 +1,19 @@
+.App {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.App input{
+  margin-top: 10px;
+  padding: 4px;
+  border: 7px solid green;
+  width :30%;
+  height: 32px;
+  font-size: 28px;
+}
+.App h1 span{
+  background-color: rgb(143, 143, 236);
+}
+.App h1{
+  background-color: lightcoral;
+}
