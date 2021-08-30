@@ -1,0 +1,84 @@
+
+.App {
+  height: 100vh;
+  text-align: center;
+   background-color: white;
+   color: black;
+}
+.App.dark{
+  height: 100vh;
+  text-align: center;
+   background-color: black;
+   color: white;
+}
+.form{
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.form button{
+  margin-left: 10px;
+}
+.form input{
+  padding-left: 10px;
+}
+.weather{
+  text-align: center;
+}
+.card{
+  margin-top: 10px;
+  border-radius: 4px;
+  box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+    background-color: white;
+    color: black;
+}
+.card.dark{
+  margin-top: 10px;
+  border-radius: 4px;
+  box-shadow:
+    rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+    rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+    rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+    background-color:rgb(51, 50, 50);
+    color:white;
+}
+.card{
+  margin-top: 10px;
+  align-items: center;
+  width: 500px;
+  margin-left: 20px;
+}
+.card * {
+  margin-left: 0px;
+}
+.card img{
+  width: 150px;
+  height: 150px;
+}
+.dta sup{
+  font-size: 30px;
+}
+.dta h1{
+  font-size: 45px;
+}
+table{
+  margin: 10px;
+}
+table th ,td{
+  width: 100%;
+  text-align: center;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.themebutton{
+   position:fixed ;
+   top: 10px;
+   right: 10px;
+}
