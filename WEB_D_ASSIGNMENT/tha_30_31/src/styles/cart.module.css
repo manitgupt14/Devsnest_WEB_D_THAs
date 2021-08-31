@@ -1,0 +1,31 @@
+.cartContainer {
+  width: 50%;
+  z-index: 2;
+  position: fixed;
+  right: 0;
+  height: 100%;
+  top: 0;
+  background-color: white;
+  transition: right 450ms;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.cross {
+  text-align: right;
+  color: var(--darkest-blue);
+  padding-right: 1rem;
+  transition: 250ms ease-in;
+}
+.cross:hover {
+  cursor: pointer;
+  color: var(--heart-pink);
+}
+.NotVisible {
+  right: -100%;
+}
+
+@media only screen and (max-width: 720px) {
+  .cartContainer {
+    width: 100%;
+  }
+}

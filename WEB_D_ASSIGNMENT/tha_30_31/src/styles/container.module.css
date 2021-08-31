@@ -1,0 +1,11 @@
+.container {
+  border-radius: 1rem;
+
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  padding: 2em;
+  grid-column-gap: 5px;
+  grid-row-gap: 1rem;
+}
+

@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 3rem auto;
+}
+.image {
+  width: 300px;
+  height: 400px;
+}
+.content {
+  display: inline-block;
+  width: 50%;
+  color: white;
+  text-align: center;
+}
+.content input {
+  background-color: var(--nav-bar-light-blue);
+  outline: none;
+  color: #fff;
+  height: 2rem;
+  width: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.addtoCart {
+  background-color: var(--heart-pink);
+  border: none;
+  border-radius: 1rem;
+  padding: 1em;
+  transition: 250ms ease-in;
+  color: white;
+}
+.buttons {
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  background-color: var(--darkest-blue);
+
+  color: white;
+  font-size: 1.25rem;
+  transition: 250ms ease-in;
+}
+.buttons:hover,
+.addtoCart:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.slider {
+  margin-top: 2rem;
+}
+.description {
+  font-size: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: justify;
+}
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-family: "Quicksand", sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  .content {
+    margin-top: 2rem;
+    width: 100%;
+  }
+}

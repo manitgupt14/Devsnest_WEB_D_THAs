@@ -1,0 +1,55 @@
+.container {
+  font-family: "Quicksand", sans-serif;
+  position: relative;
+  border-radius: 1rem;
+  width: 18rem;
+  height: fit-content;
+  background-color: white;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 2em;
+  text-decoration: none;
+  position: relative;
+  transition: 250ms ease-in;
+}
+.container:hover {
+  transform: scale(1.05);
+}
+.container img {
+  width: 150px;
+  height: 200px;
+  margin-bottom: 1rem;
+}
+.title,
+.description,
+p {
+  text-overflow: ellipsis;
+  text-decoration: none;
+  overflow: hidden;
+  color: var(--nav-bar-light-blue);
+  white-space: nowrap;
+}
+.links {
+  text-decoration: none;
+}
+.heartEmpty,
+.heartFilled {
+  position: absolute;
+  width: 1.6rem;
+  height: auto;
+  top: 1rem;
+  right: 1rem;
+  transition: 250ms ease-in;
+}
+.heartFilled {
+  fill: var(--heart-pink);
+  color: var(--heart-pink);
+}
+.heartEmpty {
+  fill: var(--darkest-blue);
+}
+.heartFilled:hover,
+.heartEmpty:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}

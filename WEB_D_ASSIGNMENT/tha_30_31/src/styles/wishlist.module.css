@@ -1,0 +1,38 @@
+.container {
+  width: 80%;
+  margin: 1rem auto;
+}
+
+.wishlistCard {
+  width: 80%;
+  height: auto;
+  background-color: white;
+  margin: 2rem auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+  color: var(--darkest-blue);
+  text-align: center;
+  transition: 250ms ease-in;
+}
+.wishlistCard:hover {
+  transform: scale(1.025);
+  cursor: pointer;
+}
+.wishlistCard img {
+  width: 150px;
+  height: auto;
+}
+.brokenHeart {
+  font-size: 2rem;
+  color: white;
+  background-color: var(--heart-pink);
+  padding: 0.15em 0;
+  max-width: 450px;
+  margin: 2rem auto;
+  transition: 250ms ease-in;
+}
+.brokenHeart:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}

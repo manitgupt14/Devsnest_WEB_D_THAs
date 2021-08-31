@@ -1,0 +1,7 @@
+:root {
+  --main-bg-color: #2c394b;
+  --nav-bar-light-blue: #334756;
+  --darkest-blue: #082032;
+  --heart-pink: #f8485e;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Quicksand&display=swap');

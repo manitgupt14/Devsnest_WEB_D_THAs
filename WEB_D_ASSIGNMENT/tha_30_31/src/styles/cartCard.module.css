@@ -1,0 +1,55 @@
+.cardContainer img {
+  width: 100px;
+  height: 100 px;
+  margin-right: 1rem;
+}
+.cardContainer {
+  display: flex;
+  justify-content: center;
+  margin: 2rem auto;
+  overflow: hidden;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 1rem 0rem;
+}
+.title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  font-size: 1.5rem;
+}
+.titleWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.trash {
+  color: red;
+  transition: 250ms ease-in;
+  font-size: 1.5rem;
+}
+.trash:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  width: 2rem;
+  padding: 0.5em;
+  border: none;
+  color: white;
+  background-color: var(--heart-pink);
+  transition: 250ms ease-in;
+}
+.buttons:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.wrapper input {
+  width: 2rem;
+}
