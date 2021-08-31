@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App h1{
+    text-align: center;
+}
+.temps{
+    width: 33.333%;
+    display: inline-block;
+    border: 10px solid transparent;
+}
+
+.temps .image{
+    width: 100%;
+    height: 400px;
+    border: 1px solid black;
+    background-size: cover;
+    background-position: center;
+}
+.meme{
+    text-align: center;
+
+}
+.meme img{
+    height: 400px;
+    border: 1px solid black;
+}
+.meme input{
+    margin: 10px;
+    padding: 5px;
+}
+.meme button {
+    margin: 10px;
+    padding: 5px;
+}
