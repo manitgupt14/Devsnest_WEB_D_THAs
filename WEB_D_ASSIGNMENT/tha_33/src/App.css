@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  text-align: center;
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+.App.dark {
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+.form-container {
+  font-family: sans-serif;
+  padding-top: 25px;
+}
+
+.form input {
+  padding: 5px 10px;
+}
+.form button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.theme-btn {
+  padding: 7px 15px;
+  position: fixed;
+  top: 2px;
+  right: 4px;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.theme-btn.dark {
+  background-color: white;
+  color: rgb(37, 37, 37);
+}
+
+.todo-box {
+  width: 243px;
+  border: 1px solid black;
+  color: black;
+  overflow-wrap: break-word;
+}
+.todo-box.dark {
+  border: 1px solid white;
+  color: white;
+}
+
+.todo-bigbox {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-big-box {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.todo-big-box .del {
+  margin-left: 5px;
+}
