@@ -1,0 +1,35 @@
+/* THA 8 */
+
+//CRUD -> POST, GET, PUT, DELETE
+
+MiddleWares-Middleware are the function just to check everything is Okay or not before executing a desired function.
+for Example - if we want to check whether the user is admin or not before any crucial and private tasks.
+
+
+const express = require('express');
+const app = express();
+
+const autho = (req, res, next)=> {
+    if (req.query.admin === 'true') {
+        next();
+    } else {
+        res.send("U r not admin");
+    }
+
+}
+app.use(autho);
+
+app.get('/', (req, res) => {
+    res.send("Good Evening Admin");
+})
+
+
+
+app.get('/', (req, res) => {
+    res.send("User entered");
+})
+
+app.get("/", (req, res) => {
+    res.send("customer here!")
+})
+
