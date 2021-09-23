@@ -1,0 +1,25 @@
+/* DAY 3 * /
+
+
+SUSCRIBE ~ UNSUSCRIBE
+PUBLISH
+
+PSUSCRIBE d*{ to get all suscribers starting with d }
+
+
+UNSUSCRIBE ~ PUNSUSCRIBE 
+
+XADD mystream 1000 name
+
+XADD mystream 1000(id) name ANNA
+XADD mystream 1001 name riya
+XADD mystream 1002 name jaya
+
+XREAD COUNT 200 streams mystream 0(starting position)
+
+XREAD BLOCK 10000 STREAMS mystream
+XREAD BLOCK 0 (never disconnect)
+
+XRANGE mystream start end (same as for loop)
+
+XREVRANGE +- instead of -+ 
