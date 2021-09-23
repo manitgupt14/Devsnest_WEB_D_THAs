@@ -1,0 +1,41 @@
+/ * DAY 4 * /
+
+VPN - Virtual Private Network
+
+When you use VPN , VPN stores IP Address of yours and sends a new IP address to access things , if any hacker is b/w you and your destination address he/she did not get your IP Address . VPN protects your IP address from hackers.
+
+REST- Representable State Transfer 
+
+CRUD - Create -POST
+       READ  - get
+       Update - put
+       Delete- Delete
+       
+API- Application programming Interface
+
+Types of Hosting
+
+Shared Hosting
+Distributed Hosting 
+
+
+INTRO TO NODE JS
+
+Nodejs-Community
+	Easy Manage
+	secure performance
+	free
+	open source
+	runs on various platforms
+	js on the server
+	
+Nodejs uses asynchronous programming 
+
+A common task for a web server can be to open a file on the server and return the content to the client.
+
+How NODEJS handles file request 
+
+    sends the task to the compiler is file system 
+    waits while the file system opens and reads the file 
+    return the content to the client
+    ready to handle the next request 	
