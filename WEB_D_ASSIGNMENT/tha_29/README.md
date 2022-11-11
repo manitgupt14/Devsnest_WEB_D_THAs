@@ -7,7 +7,7 @@ For example- Temperature, Wind Now, Humidity and Precipitation
 
 ![Weather condition of Mumbai](P1.png)
 
-In above image , I have searched the Weather Condition of Mumbai . On submitting the City Name , get this image as ouutput .
+In above image , I have searched the Weather Condition of Mumbai . On submitting the City Name , get this image as output .
 
 ## Tech Stack Used
 * React JS
